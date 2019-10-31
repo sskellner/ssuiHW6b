@@ -1,0 +1,185 @@
+body {
+  font: 14px "Open Sans", Futura, sans-serif;
+  color: white;
+  margin: 20px;
+  background-color: #532D2B;
+}
+
+.title {
+  font: 24px "Open Sans", Futura, sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  /* text-align: center; */
+}
+
+h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  /* text-align: center; */
+}
+
+h3 {
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-info {
+
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.map {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.map img{
+  /* width: 50%; */
+  max-width: 80px;
+}
+
+.map:hover img {
+  opacity: 0.5;
+}
+
+.square {
+  background: #532D2B;
+  border: none;
+  float: left;
+  /* height: 34px; */
+  padding: 5px;
+  display: flex;
+
+}
+
+#importante {
+  letter-spacing: 1px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 15px;
+  text-align: left;
+  align-self: flex-end;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+
+
+button {
+  position: relative;
+  right: 0;
+  background: none;
+  color: white;
+  font: 16px "Open Sans", Futura, sans-serif;
+  font-weight: normal;
+  float: right;
+  /* align-content: flex-start; */
+}
+
+
+button:hover {
+  background-color: rgba(75,75,75,0.5);
+}
+
+
+.popup {
+  /* position: absolute; */
+  /* min-width: 300px; */
+  /* float: right; */
+  width: 100%;
+  /* height: 50%; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: rgba(245,109,71, 0.5);
+}
+/* .popup\_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  /* border-radius: 20px; */
+  /* background: white; */
+
+/* } */
+
+.popup img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.col-md-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.col-md-7 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+/* On screens that are 992px wide or less, the background color is blue */
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+} */
